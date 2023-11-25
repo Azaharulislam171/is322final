@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  @apply bg-gray-200; /* Replace 'bg-gray-200' with your desired color */
+}
+
+.mobile-container {
+  max-width: 640px; /* or any other mobile-friendly width */
+  margin: 0 auto; /* this centers your container */
+  padding: 0 20px; /* optional, for inner spacing */
+}
+
