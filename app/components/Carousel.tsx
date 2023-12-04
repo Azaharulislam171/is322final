@@ -9,7 +9,6 @@ const Carousel = ({  }) => {
             width={1600}
             height={600}
             alt="Picture of the author"
-            layout="responsive"
             />
             <div className="hero-overlay bg-opacity-60"></div>
               <div className="hero-content text-center text-neutral-content">
@@ -30,7 +29,7 @@ const Carousel = ({  }) => {
             width={1600}
             height={600}
             alt="Picture of the author"
-            layout="responsive"
+            
             />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" className="btn btn-circle">❮</a> 
@@ -43,7 +42,7 @@ const Carousel = ({  }) => {
             width={1600}
             height={600}
             alt="Picture of the author"
-            layout="responsive"
+            
             />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" className="btn btn-circle">❮</a> 
@@ -56,7 +55,7 @@ const Carousel = ({  }) => {
             width={1000}
             height={600}
             alt="Picture of the author"
-            layout="responsive"
+            
             />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" className="btn btn-circle">❮</a> 

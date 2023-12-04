@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../components/Navbar';
 interface User{
     id: number;
     name: string;
@@ -13,7 +14,9 @@ const UserPage = async() => {
 
 
    return (
+    
     <div className='text-primary'>
+      <Navbar />
     <h1>Users</h1>
     <p>{new Date().toLocaleTimeString()}</p>
     <table className="table text-primary table-bordered bg-blend-darken">

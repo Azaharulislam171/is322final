@@ -21,33 +21,6 @@ const Footer = () => {
         <div className="flex flex-end ">
          <h1>Hi</h1>
         </div>
-
-        {/* Right section - Social media icons */}
-        <div className="flex items-center ">
-          {/* Replace below with actual icons and links */}
-          <Link href="https://facebook.com" className="mx-2"><Image
-            src="/facebook.png"
-            alt="ola"
-            width={70}
-            height={80}
-          />
-          </Link>
-          <Link href="https://facebook.com" className="mx-2"><Image
-            src="/facebook.png"
-            alt="ola"
-            width={70}
-            height={80}
-          />
-          </Link>
-          <Link href="https://facebook.com" className="mx-2"><Image
-            src="/facebook.png"
-            alt="ola"
-            width={70}
-            height={80}
-          />
-          </Link>
-         
-        </div>
       </div>
     </div>
   )

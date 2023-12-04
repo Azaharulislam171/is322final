@@ -29,9 +29,12 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="mytheme">
       <body className={kdam_Thmor_Pro.className}>
-      <Navbar/>
-        {children}
-      <Footer/>
+        <div className=''>
+           
+           {children}
+          
+      </div>
+      
         </body>
     </html>
   )

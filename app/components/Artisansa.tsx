@@ -13,10 +13,8 @@ const Artisansa = () => {
   <Image
             src="/hero.png"
             alt="Descriptive text for the image"
-            layout="responsive" // This makes the image responsive
             width={800} // The width of the image in pixels
             height={475} // The height of the image in pixels
-            objectFit="fill" 
             />
   </div>
   </figure>

@@ -1,0 +1,29 @@
+/* MyPage.module.css */
+.myPageContainer {
+    background: linear-gradient(180deg, rgba(5, 11, 20, 1) 0%, rgba(35, 103, 64, 1) 100%);
+    border-radius: 0.5rem;
+  }
+  
+  
+  .myPageTitle {
+    font-size: 24px;
+    color: darkblue;
+  }
+
+  .myPadding {
+    padding: 0;
+  }
+  
+  /* Medium screens (e.g., tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .my-padding {
+      padding: 20vw;
+    }
+  }
+  
+  /* Large screens (e.g., desktops, 1024px and up) */
+  @media (min-width: 1024px) {
+    .my-padding {
+      padding: 30vw;
+    }
+  }
